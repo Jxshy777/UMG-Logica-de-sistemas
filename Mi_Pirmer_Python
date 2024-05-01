@@ -1,0 +1,5 @@
+mivariable=18
+minombre="Josue Herrera"
+print("Hello World")
+print(mivariable)
+print(minombre)
