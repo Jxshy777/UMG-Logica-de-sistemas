@@ -1,0 +1,21 @@
+# ciclo for
+for  variable in range(1,10):
+    print(variable)
+
+
+
+
+
+# ciclo While
+respuesta=None
+while True:
+   respuesta=input("desea continuar? (s/n): ")
+   if respuesta==  "s":
+        nombre=input("Nombre:")
+        correo=input("correo")
+        tel=input("telefono:")
+   else: 
+    break
+print(nombre)
+print(correo)
+print(tel)

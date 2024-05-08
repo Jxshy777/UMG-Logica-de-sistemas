@@ -1,0 +1,8 @@
+#Calcular la edad
+Edad = (0)
+Fecha = (2024)
+Nombre = ()
+print("ingrese su nombre", Output= "")
+print("ingrese su Edad")
+Output= Edad
+print (int(Fecha-Edad ))
