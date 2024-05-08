@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+Base=0
+Altura=0
+Perimetro= int(Base)+(Altura*2)
+Area= int(Base*Altura)
+print("ingrese la base de su rectangulo")
+Input=Base
+print("El area del rectangulo es")
+print(Area)
+print("el perimetro del rectangulo es")
+print(Perimetro)
+>>>>>>> Stashed changes
