@@ -1,0 +1,7 @@
+def Datos ():
+    nombre = input("ingrse su nombre: ")
+    correo = input("ingrese su correo: ")
+    carnet = input("ingrese su carnet: ")
+    return nombre, correo, carnet
+n, ca, co = Datos() 
+print(n, ca, co)

@@ -1,0 +1,32 @@
+#Lista de nombres
+Lista = []
+while True:
+    nombre=input("dame un nombre: ")
+    if nombre == "salir" :
+        break
+    Lista.append(nombre)
+print(Lista)
+
+#buscar un nombre en la lista
+Buscar=input("dame un nombre a buscar: ")
+if Buscar in Lista:
+    print("El nombre esta en la lista")
+else:
+    print("El nombre no esta en la lista")
+
+#Modificar nombre de la lista
+modificar=input("dame un nombre que quieras modificar")
+if modificar in Lista:
+    Indice=Lista.index(modificar)
+    Nuevonombre=input("dame el nuevo nombre")
+    Lista[Indice]=Nuevonombre
+
+
+#Borrar un nombre de la lista
+Borrar=input("dame un nombre a buscar: ")
+if Borrar in Lista:
+   Lista.remove(Borrar)
+print(Lista)
+
+#CRUD Create, Read, Update, Delete
+
