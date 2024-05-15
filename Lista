@@ -30,3 +30,39 @@ print(Lista)
 
 #CRUD Create, Read, Update, Delete
 
+
+
+#Ejemplo del lic
+
+Listadenombres=[]
+def agregarnombre(Noombre_a_agregar):
+    Listadenombres.append(Noombre_a_agregar)
+
+def consultarnombre(nombre_a_consultar):
+    if nombre_a_consultar in Listadenombres:
+        return True
+    else:
+        return False
+
+def eliminarnombre(nombre_a_eliminar):
+    if nombre_a_eliminar in Listadenombres
+
+
+def modificarnombre(nombre_a_modificar, nuevo_nombre):
+    pass
+
+def mostrar_lista():
+    print(Listadenombres)
+
+
+def mostrar_menu():
+    print ("1 Consultar correo")
+    print ("2 Consultar Nombre")
+    print ("3 Consultar Carnet")
+    print ("4 Modificar nombre")
+    print ("5 Mostrar Lista ")
+
+
+#Programa pricipal
+while True:
+    op=mostrar_menu
