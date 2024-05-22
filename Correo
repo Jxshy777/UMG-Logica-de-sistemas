@@ -1,0 +1,37 @@
+diccionario_estudiantes ={'carne': 123, 'nombre':"Juan", 'correo':"juanperez@miumg.edu.gt"}
+print('carne: ',diccionario_estudiantes['carnet'])
+print ('correo: ',diccionario_estudiantes['correo' ])
+print ("nombre: " ,diccionario_estudiantes ['nombre'])
+#para modificar un valor en el diccionario se hace de la siguiente manera dicelonario _estudiantes ['nombre']='Jose'
+print (diccionario_estudiantes)
+
+listado=[]
+datos= {"carne":"","nombre":"","correo":"" }
+while True:
+    datos["carne"]=input("Ingrese carne: ")
+    datos['nombre']=input("Ingrese nombre: ")
+    datos ['correo']=input("Ingrese correo: ")
+    listado.append(datos.copy())
+    salir=input("Desea salir? (s/n): ")
+    if  salir.lower()=="s":
+        break
+print (listado)
+
+
+correobuscado='rrendonplmiung.edu.gt'
+for i in listado:
+    if i [' correo']==correobuscado:
+        print( 'Correo encontrado')
+        print(" Los datos son: ", i)
+
+
+
+listado=[   {'carne': '1', 'nombre': 'Raul', 'correo': "rrendonp@miung.edu.gt"},
+            {'carne': "2",'nombre': 'Carlos', 'correo': "carlosc@niung.edu.gt"},
+            {'carne': "3","nombre": 'Raquel', "correo": 'rmolina32@miumg.edu.gt'},
+            {'carne': "4", "nombre": "Pedro", "correo": "pæujia@»ung-edu.gt"},
+            {'carne': "5", "nombre": "Marta", "correo": "mtortola@alumg. edu.gt"},
+        ]
+
+
+
